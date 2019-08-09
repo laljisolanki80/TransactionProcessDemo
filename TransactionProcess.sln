@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.29123.88
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactionProcess", "TransactionProcess.csproj", "{CA8C21D9-C813-4BDA-8254-4D180C7175A0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Transaction", "Transaction", "{C0C42479-6C9C-40CB-AB1F-53DBCC25CA25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transaction.API", "..\Transaction.API\Transaction.API.csproj", "{A35BF7FC-11E4-4AE2-9F8C-927F1A06787F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{CA8C21D9-C813-4BDA-8254-4D180C7175A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA8C21D9-C813-4BDA-8254-4D180C7175A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA8C21D9-C813-4BDA-8254-4D180C7175A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A35BF7FC-11E4-4AE2-9F8C-927F1A06787F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A35BF7FC-11E4-4AE2-9F8C-927F1A06787F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A35BF7FC-11E4-4AE2-9F8C-927F1A06787F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A35BF7FC-11E4-4AE2-9F8C-927F1A06787F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A35BF7FC-11E4-4AE2-9F8C-927F1A06787F} = {C0C42479-6C9C-40CB-AB1F-53DBCC25CA25}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9FAE4199-B5E9-432A-BFDB-DB642060ED04}
